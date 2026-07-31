@@ -5,7 +5,25 @@ function About({
   return (
     <aside>
       <img src={image} alt="blog logo" />
-      <p>{about}</p>
+
+      <div>
+        <h2
+          style={{
+            color: "#2563eb",
+            marginBottom: "10px",
+          }}
+        >
+          About this Blog
+        </h2>
+
+        <p
+          style={{
+            lineHeight: "1.8",
+          }}
+        >
+          {about}
+        </p>
+      </div>
     </aside>
   );
 }

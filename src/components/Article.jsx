@@ -5,7 +5,11 @@ function Article({
   date = "January 1, 1970",
 }) {
   return (
-    <article>
+    <article
+      style={{
+        cursor: "pointer",
+      }}
+    >
       <h3>{title}</h3>
 
       <small>
